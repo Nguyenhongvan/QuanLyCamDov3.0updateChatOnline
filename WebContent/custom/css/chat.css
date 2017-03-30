@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+  div#olark_tab{
+    position: fixed;
+    left: 0;
+    bottom:0%;
+    z-index:5000;
+  }
+
+  #olark_tab a {
+    display:block;
+    /*Edit these to change the look of your tab*/
+    border: 3px solid white;
+    border-left-style: none;
+    border-bottom-style: none;
+    margin-top:0px;
+  }
+
+  #olark_tab a:hover{
+    border-color: orange;
+  }
